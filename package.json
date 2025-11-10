@@ -12,16 +12,11 @@
   "dependencies": {
     "@alifd/next": "^1.x",
     "@icedesign/container": "^1.x",
-    "@icedesign/foundation-symbol": "^1.x",
-    "@icedesign/img": "^1.x",
     "@icedesign/layout": "^1.x",
     "@icedesign/theme": "^1.x",
     "classnames": "^2.2.5",
-    "enquire-js": "^0.1.2",
-    "moment": "^2.23.0",
     "prop-types": "^15.5.8",
     "react": "^16.4.1",
-    "react-document-title": "^2.0.3",
     "react-dom": "^16.4.1",
     "react-router-dom": "^5.0.1"
   },
@@ -30,8 +25,7 @@
     "eslint": "^6.0.1",
     "stylelint": "^10.1.0",
     "ice-scripts": "^2.0.0",
-    "ice-plugin-fusion": "^0.1.4",
-    "ice-plugin-moment-locales": "^0.1.0"
+    "ice-plugin-fusion": "^0.1.4"
   },
   "iceworks": {
     "type": "react",
