@@ -7,9 +7,6 @@ module.exports = {
     ['ice-plugin-fusion', {
       themePackage: '@icedesign/theme',
     }],
-    ['ice-plugin-moment-locales', {
-      locales: ['zh-cn'],
-    }],
   ],
   alias: {
     '@': path.resolve(__dirname, './src/'),

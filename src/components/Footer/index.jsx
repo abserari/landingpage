@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../Logo';
 
-export default () => {
+export default function Footer() {
   return (
     <div
       style={{
@@ -15,7 +15,7 @@ export default () => {
       }}
     >
       <div style={{ filter: 'grayscale(100%)', opacity: 0.3 }}>
-        <Logo isDark />
+        <Logo />
       </div>
       <div
         style={{
@@ -27,8 +27,8 @@ export default () => {
       >
         Abser
         <br />
-        © 2019 版权所有
+        © 2025 版权所有
       </div>
     </div>
   );
-};
+}
